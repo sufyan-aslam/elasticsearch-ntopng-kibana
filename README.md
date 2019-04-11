@@ -24,3 +24,7 @@ Elasticsearch is an open source search engine based on Lucene, developed in Java
 Kibana is an open source data visualization tool for Elasticsearch. Kibana provides a pretty dashboard web interface. It allows you to manage and visualize data from Elasticsearch. It's not just beautiful, but also powerful.
 
   https://www.elastic.co/downloads/kibana
+
+# Dashboards
+ 
+Visualizations can be created and seen in Dashboard section. Moreover custom made dashboard has been uploaded in json format.
