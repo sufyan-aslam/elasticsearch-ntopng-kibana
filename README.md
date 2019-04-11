@@ -1,5 +1,11 @@
 # Network traffic analysis with elasticsearch-ntopng-kibana
-instruct ntopng to save port mirrored traffic Elasticsearch for customised reports using an "ENK" stack (Elasticsearch-ntopng-Kibana)
+
+Instruct ntopng to save port mirrored traffic Elasticsearch for customised reports using an "ENK" stack (Elasticsearch-ntopng-Kibana).
+
+Ntopng allows you to export monitoring data do external sources. For low-traffic sites, SQLite and the ntopng historical interface can be a good option. As your traffic increases you are forced to put your data on a database if you care about performance and long-term data persistency. 
+ In ES parlance an index is what a table is on a relational database. In order to avoid putting all data in a single index (ES can harvest old data with you by configuring the data retention), ntopng will create a daily index automatically for you by using the index name specified on the command line. By default (unless you configure it) ES does not use a password to protect data, so you can leave the password field blank. Make sure that you do not change the /_bulk/ URL as ES likes it that way (of course you can change the host name and port).
+
+Once started, ntopng will push ES flows that are expired or periodically send (every 5 mins) partial flows for long lasting flows. By connecting to Kibana using a web browser you can immediately start seeing incoming flows appear in realtime.
 
 A brief introduction of ntopng,  Elasticsearch and Kibana
 
