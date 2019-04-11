@@ -1,0 +1,11 @@
+---
+# Default Kibana configuration from kibana-docker.
+# from https://github.com/elastic/kibana-docker/blob/master/build/kibana/config/kibana.yml
+#
+# All of these variables can be overriden with environment variables
+# (e.g. server.name -> SERVER_NAME)
+
+server.name: kibana
+server.host: "0"
+# server.basePath: "/syslog"
+elasticsearch.url: http://elasticsearch:9200
