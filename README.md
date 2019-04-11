@@ -28,3 +28,5 @@ Kibana is an open source data visualization tool for Elasticsearch. Kibana provi
 # Dashboards
  
 Visualizations can be created and seen in Dashboard section. Moreover custom made dashboard has been uploaded in json format.
+
+
