@@ -12,7 +12,8 @@ A brief introduction of ntopng,  Elasticsearch and Kibana
 # Ntopng
 ntopng is the next generation version of the original ntop, a network traffic probe that monitors network usage. ntopng is based on libpcap and it has been written in a portable way in order to virtually run on every Unix platform, MacOSX and on Windows as well.
 
-
+  https://i0.wp.com/www.ntop.org/wp-content/uploads/2015/06/Screen-Shot-2015-06-03-at-12.33.11.png?ssl=1
+  https://i0.wp.com/www.ntop.org/wp-content/uploads/2015/06/Screen-Shot-2015-06-03-at-12.37.27.png?ssl=1
   https://i2.wp.com/www.ntop.org/wp-content/uploads/2017/05/20-ntopng-flow-details-page-e.png?fit=1214%2C720&ssl=1
 
 # Elasticsearch
