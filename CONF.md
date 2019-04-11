@@ -21,7 +21,7 @@ ntopng will NOT create the mappings automatically - a template should be created
 
 Example:
 $ curl -XPUT localhost:9200/_template/ntopng -d '
-    {
+   " {
       "template" : "ntopng-*",
       "settings" : {
         "index.refresh_interval" : "5s"
@@ -61,7 +61,7 @@ $ curl -XPUT localhost:9200/_template/ntopng -d '
            }
         }
       }
-    }'
+    }' "
 
 
 Using It
